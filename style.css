@@ -3,6 +3,8 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
+    color: white;
+    font-weight: 100;
 }
 
 html, body{
@@ -16,7 +18,7 @@ html, body{
 
 #box{
     background: linear-gradient(135deg, #00feba, #5b548a);
-    max-width: 470px;
+    max-width: 430px;
     padding: 40px 35px;
     border-radius: 30px;
     text-align: center;
@@ -31,6 +33,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 #search input{
@@ -38,7 +41,7 @@ html, body{
     color: #555;
     background: #ebfffc;
     padding: 10px 25px;
-    height: 60px;
+    height: 50px;
     flex: 1;
     border-radius: 30px;
     margin-right: 16px;
@@ -68,4 +71,41 @@ html, body{
     width: 65%;
     margin-top: 5px;
     margin-left: 2px;
+}
+
+#temp-city{
+    font-size: 1.8rem;
+}
+#city{
+    font-size: 2.48rem;
+    
+}
+
+#temp-city{
+    margin-top: 15px;
+}
+
+#details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15%;
+
+}
+
+#humidity, #wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#humidity img, #wind img{
+    width: 40px;
+    margin-right: 8px;
+}
+
+.det{
+    transform: scale(0.8);
+    text-align: left;
 }
